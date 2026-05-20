@@ -1,0 +1,103 @@
+PRUEBAS
+
+1.- CASOS VALIDOS
+ 
+---> Caso 1.
+Datos ingresados: 85, 92, 78, 88, 95, 75, 82, 90
+- Promedio: 85.63
+- Calificación maxima: 95
+- Calificación minima: 75
+- Cantidad de aprobados  (>=70): 8
+- Cantidad de reprobados (<70): 0
+- Porcentaje de aprobados: 100.0%
+
+---> Caso 2.
+Datos ingresados: 100, 100, 100, 100, 100, 100, 100, 100
+- Promedio: 100.00
+- Calificación maxima: 100
+- Calificación minima: 100
+- Cantidad de aprobados  (>=70): 8
+- Cantidad de reprobados (<70): 0
+- Porcentaje de aprobados: 100.0%
+
+---> Caso 3.
+Datos ingresados: 0, 0, 0, 0, 0, 0, 0, 0
+- Promedio: 0.00
+- Calificación maxima: 0
+- Calificación minima: 0
+- Cantidad de aprobados (>=70): 0
+- Cantidad de reprobados (<70): 8
+- Porcentaje de aprobados: 0.0%
+
+---> Caso 4.
+Datos ingresados: 70, 70, 70, 70, 70, 70, 70, 70
+- Promedio: 70.00
+- Calificación maxima: 70
+- Calificación minima: 70
+- Cantidad de aprobados (>=70): 8
+- Cantidad de reprobados (<70): 0
+- Porcentaje de aprobados: 100.0%
+
+---> Caso 5.
+Datos ingresados: 65, 72, 81, 55, 68, 79, 73, 67
+- Promedio:                  70.00
+- Calificación maxima: 81
+- Calificación minima: 55
+- Cantidad de aprobados (>=70): 4
+- Cantidad de reprobados (<70): 4
+- Porcentaje de aprobados: 50.0%
+
+---> Caso 6.
+Datos ingresados: 10, 20, 30, 40, 50, 60, 15, 45
+- Promedio: 33.75
+- Calificación maxima:       60
+- Calificación minima:       10
+- Cantidad de aprobados  (>=70): 0
+- Cantidad de reprobados (<70): 8
+- Porcentaje de aprobados:   0.0%
+
+---> Caso 7. 
+Datos ingresados: 0, 100, 0, 100, 0, 100, 0, 100
+- Promedio: 50.00
+- Calificación maxima: 100
+- Calificación minima: 0
+- Cantidad de aprobados (>=70): 4
+- Cantidad de reprobados (<70): 4
+- Porcentaje de aprobados: 50.0%
+
+---> Caso 8.
+Datos ingresados: 95, 88, 91, 97, 85, 60, 93, 89
+- Promedio: 87.25
+- Calificación maxima: 97
+- Calificación minima: 60
+- Cantidad de aprobados (>=70): 7
+- Cantidad de reprobados (<70): 1
+- Porcentaje de aprobados: 87.5%
+
+2.- CASOS INVALIDOS 
+
+---> Caso 9. 
+Datos ingresados: 85, 92, 120, 88, 95, 75, 82, 90
+# ERROR: Calificación fuera de rango en posición 3: 120
+
+---> Caso 10.
+Datos ingresados: 85, 92, -5, 88, 95, 75, 82, 90
+# ERROR: Calificación fuera de rango en posición 3: -5
+
+---> Caso 11.
+Datos ingresados: 85, 92, 78, 88, 95
+# ERROR: Cantidad insuficiente de calificaciones: 5
+
+---> Caso 12.
+Datos ingresados: 85, 92, 78, 88, 95, 75, 82, 90, 77
+# ERROR: Cantidad excesiva de calificaciones: 9
+
+---> Caso 13.
+85, noventa, 78, 88, 95, 75, 82, 90
+# ERROR: Valor no numérico en posición: 2
+
+---> Caso 14.
+Datos ingresados: 85, 92, 120, -10, 95
+# ERROR: Calificación fuera de rango en posición 3: 120
+# ERROR: Calificación fuera de rango en posición 4: -10
+# ERROR: Cantidad insuficiente de calificaciones: 5
